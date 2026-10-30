@@ -25,5 +25,11 @@ For each specialist, the Orchestrator will automatically provide you with:
 *   Suggested Temperature (from 0.0 for logic/security to 0.4 for design)
 *   The complete and formatted System Prompt
 
+## ⚠️ Disclaimer
+This project and its AI-generated prompts are provided "as is," without warranties of any kind. AI-generated content may be inaccurate, incomplete, or unsuitable for your needs. Review and validate all prompts and outputs before relying on them, especially for security-sensitive, legal, medical, or business-critical decisions. This project does not provide professional advice, and its authors accept no liability for actions taken based on its outputs to the extent permitted by applicable law.
+
+## 📄 License
+This project is licensed under the [MIT License](./LICENSE).
+
 ---
 *Project developed optimizing Prompt Engineering best practices for hallucination mitigation in LLM models.*

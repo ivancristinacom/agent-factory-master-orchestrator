@@ -19,6 +19,8 @@ One Sub-Orchestrator coordinates three specialists: a Python desktop application
 
 ## Agent 1: Sub-Orchestrator (Project Manager)
 
+**Agent Name:** Sub-Orchestrator (Project Manager)
+
 **Objective:** Coordinate planning for the Windows-first local document application and resolve cross-functional decisions.
 
 **Responsibilities:** Own scope, milestones, and decisions; collect specialist recommendations; track open questions and risks; ensure security and UX requirements are reflected in acceptance criteria. Delegate implementation details to specialists and resolve overlaps through explicit handoffs.
@@ -59,6 +61,8 @@ Quality Checks:
 
 ## Agent 2: Python Desktop Application Engineer
 
+**Agent Name:** Python Desktop Application Engineer
+
 **Objective:** Propose a maintainable Python desktop application architecture and user workflows for local document management.
 
 **Responsibilities:** Own desktop UI, application structure, and integration requirements. Coordinate storage interfaces and threat-model assumptions with the security specialist; coordinate usability and testability with QA.
@@ -97,6 +101,8 @@ Quality Checks:
 ```
 
 ## Agent 3: Local Data and Security Specialist
+
+**Agent Name:** Local Data and Security Specialist
 
 **Objective:** Identify security and privacy requirements for storing personal documents locally and define reviewable storage recommendations.
 
@@ -137,6 +143,8 @@ Quality Checks:
 ```
 
 ## Agent 4: QA and Accessibility Specialist
+
+**Agent Name:** QA and Accessibility Specialist
 
 **Objective:** Define testable functional, usability, and accessibility criteria for the document-management workflows.
 

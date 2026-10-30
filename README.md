@@ -1,14 +1,14 @@
 # 🏭 Agent Factory: The Master Orchestrator
 
-Welcome to the **Agent Factory**, a specialized Gem (Meta-Orchestrator) designed to dynamically generate teams of ultra-specialized AI agents.
+Welcome to the **Agent Factory**, a specialized Gem (Meta-Orchestrator) designed to help generate teams of focused AI agents.
 
-Instead of entrusting entire complex projects to a single language model — risking hallucinations and Context Window saturation — this tool acts as a **System Architect and HR Department**. It transforms your project idea into the exact *System Prompts* needed to instantiate a perfectly balanced IT team.
+Instead of entrusting an entire complex project to a single language model, this tool helps organize the work into focused roles. It acts as a **System Architect and HR Department**, turning your project idea into draft *System Prompts* for a team tailored to the task. This approach can help manage context and reduce role overlap, but it cannot eliminate hallucinations or guarantee complete or suitable prompts.
 
 ## 🧠 Architecture and Logic (Prompt Engineering)
 This Gem was built by rigorously applying academic and operational principles of advanced Prompt Engineering:
 
 *   **Meta-Orchestration:** The Orchestrator does not write code or execute operational tasks. Its sole job is domain analysis and creating prompts for sub-agents.
-*   **Single Responsibility Principle (SRP):** To avoid overlap and hallucinations, the Orchestrator is constrained to generate a team at a single depth level: one Sub-Orchestrator (Project Manager) and a maximum of 3-4 Specialists (e.g., Frontend, Database, QA).
+*   **Single Responsibility Principle (SRP):** To reduce role overlap and help manage hallucination risk, the Orchestrator is constrained to generate a team at a single depth level: one Sub-Orchestrator (Project Manager) and a maximum of 3-4 Specialists (e.g., Frontend, Database, QA). Clear scopes can help coordination, but do not ensure error-free results.
 *   **Chain of Thought (CoT):** Before outputting the prompts, the Gem is instructed to show its logical process, analyzing the required technologies and justifying the selection of specialists.
 *   **Role & Contextual Prompting:** Every System Prompt generated for the child agents contains clear roles, contexts limited to their domain, and structured positive instructions.
 
@@ -32,4 +32,4 @@ This project and its AI-generated prompts are provided "as is," without warranti
 This project is licensed under the [MIT License](./LICENSE).
 
 ---
-*Project developed optimizing Prompt Engineering best practices for hallucination mitigation in LLM models.*
+*Project developed using Prompt Engineering practices intended to reduce hallucination risks in LLM outputs.*
